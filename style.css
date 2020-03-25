@@ -39,6 +39,12 @@ header{
 	top: 24px;
 }
 
+@media (max-width: 1440px) {
+	.menu {
+		width: 200px;
+	}
+}
+
 .menu_item{
 	text-decoration: none;
 	font-family: Lato Regular;
