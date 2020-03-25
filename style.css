@@ -1,7 +1,7 @@
 *{
 	margin: auto;
 	padding: 0;
-	background: #424B54;
+
 }
 
 body{
@@ -48,11 +48,6 @@ header{
 	padding: 10px;
 }
 
-@media (max-width: 1440px) {
-	.menu_item {
-		color:  #6DAEDB;
-	}
-}
 
 .ex_content{
 	position: absolute;
@@ -196,4 +191,17 @@ footer{
 	margin-left: 110px;
 
 	color: #FFFFFF;
+}
+
+@media (max-width: 900px) {
+	.menu{
+		background: #6DAEDB;
+		width: 10%;
+		height: 100px;
+		right: 450px;
+		justify-content: center;
+	}
+	.menu_item{
+		line-height: 36px;
+	}
 }
