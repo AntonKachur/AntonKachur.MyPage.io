@@ -39,7 +39,7 @@ header{
 	top: 24px;
 }
 
-@media (max-width: 1440px) {
+@media (min-width: 1440px) {
 	.menu {
 		width: 200px;
 	}
