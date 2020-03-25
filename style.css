@@ -39,11 +39,6 @@ header{
 	top: 24px;
 }
 
-@media (max-width: 1440px) {
-	.menu_item {
-		padding: 0px;
-	}
-}
 
 .menu_item{
 	text-decoration: none;
@@ -51,6 +46,12 @@ header{
 	font-size: 24px;
 	color: #FFFFFF;
 	padding: 10px;
+}
+
+@media (max-width: 1440px) {
+	.menu_item {
+		color:  #6DAEDB;
+	}
 }
 
 .ex_content{
